@@ -6,6 +6,6 @@ import java.util.ArrayList;
 public class Person {
 	private String firstname;
 	private String lastname;
-	private ArrayList<Address> addressList=new List<Address>();
+	private ArrayList<Address> addressList=new ArrayList<Address>();
 	
 }
