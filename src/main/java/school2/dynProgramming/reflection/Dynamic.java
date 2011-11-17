@@ -5,6 +5,7 @@ package school2.dynProgramming.reflection;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Locale;
 
 /**
  * @author Daniel Stutz
@@ -15,6 +16,8 @@ public class Dynamic {
 
 	public void setInformation(String className, String attributName,
 			String value) {
+
+		Locale loc = new Locale("ENGLISH");
 
 		// Class Objekt von der Klasse erhalten
 		Class<?> cls = null;
@@ -39,7 +42,7 @@ public class Dynamic {
 		}
 
 		// Methoden heraussuchen
-		Method[] methods = new
+		Method[] methods = cls.getMethods();
 
 		// Person Object in die ArrayList
 		persons.add((Person) object);
