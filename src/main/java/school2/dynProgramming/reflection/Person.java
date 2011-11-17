@@ -1,4 +1,4 @@
-package School2.dynProgramming.Relection;
+package school2.dynProgramming.reflection;
 
 import java.awt.List;
 import java.util.ArrayList;

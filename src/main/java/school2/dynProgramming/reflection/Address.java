@@ -1,4 +1,4 @@
-package School2.dynProgramming.Relection;
+package school2.dynProgramming.reflection;
 
 public class Address {
 	private String street;
