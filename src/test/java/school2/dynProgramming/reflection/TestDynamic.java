@@ -13,7 +13,6 @@ public class TestDynamic {
 		Dynamic dyn = new Dynamic();
 
 		dyn.setInformation("Person", "firstname", "Sabrina");
-
 		System.out.println("Person");
 	}
 }
